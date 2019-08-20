@@ -180,7 +180,11 @@ header .content-wrapper {
 }
 
 header figure {
-
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header-divider {
@@ -256,6 +260,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -582,7 +587,7 @@ input[type=button] {
   }
 
   .reviews article figure,
-  .reviews article div {
+  .reviews article fdiv {
     width: 49%;
   }
 
