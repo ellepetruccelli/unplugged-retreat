@@ -583,10 +583,13 @@ input[type=button] {
   }
 
   /* Hero Area */
+  .hero-area .content-wrapper {
+    margin-top: 80px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
-    margin: 0;
   }
 
   /* Aside */
